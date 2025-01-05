@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BtoLibrary2Activity"
+    android:layout_gravity="center_vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="B棟からの場合"
+            android:textSize="20sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="130dp"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/map_ctodtolibrary"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="②C棟3階フロアも直進してD棟3階へ入り、そのままアルファ棟を通り過ぎて、図書館4階へ。"
+            android:textSize="15sp"
+            android:layout_marginTop="500dp"
+            android:layout_marginStart="80dp"/>
+
+        <Button
+            android:id="@+id/returnbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="もどる"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="550dp"
+            android:layout_marginStart="80dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

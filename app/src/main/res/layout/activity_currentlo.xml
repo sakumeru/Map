@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CurrentLoActivity"
+    android:layout_gravity="center_vertical"
+    >
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="目的地を入力してね\n入力例： 図書館⇒図書館"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="現在地：B棟"
+           android:textSize="20dp"
+           android:layout_marginTop="200dp"
+           android:layout_marginStart="150dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:hint="目的地"
+                android:id="@+id/edit_text2"
+                android:layout_marginTop="300dp"
+                android:layout_marginStart="110dp"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCl"
+            android:text="入力された値を取得"
+            android:layout_marginTop="450dp"
+            android:layout_marginStart="130dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/btnRank"
+            android:text="よく検索される場所"
+            android:layout_marginTop="600dp"
+            android:layout_marginStart="200dp"/>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

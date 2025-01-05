@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultB1C3Activity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="B棟1階からの場合"
+            android:textSize="20sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="130dp"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/map_b2_color"
+             />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="階段でB棟2階まで上がり、ITコモンズ前の渡り廊下を通るとC棟3階に行ける"
+            android:textSize="15sp"
+            android:layout_marginTop="500dp"
+            android:layout_marginStart="10dp"/>
+
+        <Button
+            android:id="@+id/buttonC3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C棟3階の見取り図を見る"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="550dp"
+            android:layout_marginStart="100dp"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
