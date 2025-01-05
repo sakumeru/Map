@@ -11,5 +11,5 @@
 - 言語：Kotlin
 
 # 資料
-ポートフォリオはこちら↓
+↓ポートフォリオはこちら↓  
 https://sakumeru.github.io/portfolio/
