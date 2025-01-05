@@ -9,7 +9,3 @@
 # 使用技術
 - ツール：Android Studio
 - 言語：Kotlin
-
-# 資料
-↓ポートフォリオはこちら↓  
-https://sakumeru.github.io/portfolio/
